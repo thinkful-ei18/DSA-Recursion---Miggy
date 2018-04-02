@@ -1,7 +1,6 @@
 'use strict';
 
-
-function countSheep(numSheep) {
+function countSheep(numSheep){
   if (numSheep<1){
     return;
   }

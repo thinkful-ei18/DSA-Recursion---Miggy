@@ -1,5 +1,4 @@
 'use strict';
-//recursive
 
 function arrDouble(arr){
   if(arr.length===0){

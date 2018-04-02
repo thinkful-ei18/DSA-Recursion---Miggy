@@ -1,22 +1,14 @@
 'use strict';
 
 function stringReverse(string){
-  if(string ===''){
+  if(string === ''){
     return '';
   }
-  const revString = string[0];
-  return stringReverse(string.slice(1))+revString;
+  return stringReverse(string.slice(1))+string[0];
 }
 
 const testString = 'hello';
 console.log(stringReverse(testString));
 
-
-
-/*
-hello
-ello
-llo
-lo
-o
-*/
+const testString2 = 'racecar!';
+console.log(stringReverse(testString2));
