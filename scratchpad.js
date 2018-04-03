@@ -1,4 +1,7 @@
 'use strict';
+
+//lil bit of scratch work here, examples from videos and the readings
+
 // function upperStr(str){
 //   if (str === '') {
 //     return '';
@@ -25,9 +28,9 @@
 // var arr = [10,5,6,3,8];
 // console.log(filter(arr, x => x < 7));
 
-
-const wee = 2;
-const woe = [3,4];
-const wer = [13,43,43];
-const why = [wee, ...woe, wer];
-console.log(why);
+// 
+// const wee = 2;
+// const woe = [3,4];
+// const wer = [13,43,43];
+// const why = [wee, ...woe, wer];
+// console.log(why);
